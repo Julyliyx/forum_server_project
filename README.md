@@ -1,0 +1,1 @@
+本项目实现了一个留学论坛的后端开发，包含的功能有登录注册，发帖删帖查帖，点赞发表评论。本项目通过Jdbc连接数据库，若要使用自己的数据库记得在application properties文件以及database fuction中换成自己数据库的url。
