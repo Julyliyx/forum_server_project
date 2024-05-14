@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Main-Class: com.CAN301_ios.forum_server.ForumServerApplication
+Class-Path: spring-boot-starter-logging-3.1.5.jar spring-beans-6.0.13.ja
+ r spring-aop-6.0.13.jar log4j-api-2.20.0.jar commons-lang3-3.8.1.jar lo
+ gback-classic-1.4.11.jar logback-core-1.4.11.jar tomcat-embed-websocket
+ -10.1.15.jar spring-boot-starter-3.1.5.jar spring-tx-6.0.13.jar jackson
+ -annotations-2.15.3.jar jackson-datatype-jsr310-2.15.3.jar tomcat-embed
+ -core-10.1.15.jar spring-webmvc-6.0.13.jar spring-boot-starter-web-3.1.
+ 5.jar spring-boot-starter-tomcat-3.1.5.jar spring-jdbc-6.0.13.jar sprin
+ g-core-6.0.13.jar snakeyaml-1.33.jar log4j-to-slf4j-2.20.0.jar jackson-
+ datatype-jdk8-2.15.3.jar spring-context-6.0.13.jar jul-to-slf4j-2.0.9.j
+ ar jackson-module-parameter-names-2.15.3.jar tomcat-embed-el-10.1.15.ja
+ r slf4j-api-2.0.9.jar spring-boot-autoconfigure-3.1.5.jar micrometer-ob
+ servation-1.11.5.jar spring-boot-starter-json-3.1.5.jar spring-web-6.0.
+ 13.jar micrometer-commons-1.11.5.jar jackson-core-2.15.3.jar HikariCP-5
+ .0.1.jar fastjson-1.2.28.jar spring-boot-3.1.5.jar spring-expression-6.
+ 0.13.jar spring-jcl-6.0.13.jar jakarta.annotation-api-2.1.1.jar spring-
+ boot-starter-jdbc-3.1.5.jar jackson-databind-2.15.3.jar
+
