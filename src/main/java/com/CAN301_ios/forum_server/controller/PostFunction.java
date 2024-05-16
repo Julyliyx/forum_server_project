@@ -148,5 +148,19 @@ public class PostFunction {
             return "false";
         }
     }
-
+    @ResponseBody
+    @RequestMapping("/addFavorite")
+    public static String addFavorite(int postID, String username, String comment){
+        if(!userExistCheck(username)){
+            return "user does not exist";
+        }
+        Date date = new Date();
+        String sql = String.format("INSERT INTO Favorite_Posts (Post_ID,Username) " +
+                "VALUES ('%s','%s')", postID, username);
+        if(executeSQL(sql).equals("execute successfully")){
+            return "submit successfully";
+        }else {
+            return "failed to post";
+        }
+    }
 }
